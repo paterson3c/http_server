@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "*.rmd": "markdown",
+        "*.pl": "prolog",
+        "cstdlib": "c",
+        "response.h": "c",
+        "socket.h": "c",
+        "utils.h": "c",
+        "reactive.h": "c",
+        "stdlib.h": "c",
+        "conf_parser.h": "c"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/mija/Uni/3/Redes2/practica1/bin",
+            "binaryPath": "/home/mija/Uni/3/Redes2/practica1/bin/iterative",
+            "binaryArgs": ["./conf/it_server.conf"]
+        }
+    ],
+    "docwriter.style": "Doxygen"
+}
