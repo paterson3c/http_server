@@ -6,6 +6,7 @@ Este proyecto implementa un servidor HTTP básico en lenguaje C capaz de manejar
 - Lenguaje C
 - Sockets
 - Protocolo HTTP
+- Hilos
 
 ## 🚀 Funcionalidades
 - Gestión manual de conexiones TCP mediante sockets
