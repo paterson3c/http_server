@@ -1,6 +1,35 @@
-# Práctica 1 Redes de Comunicaciones 2
+# Servidor HTTP en C
 
-## Ejecución
+Este proyecto implementa un servidor HTTP básico en lenguaje C capaz de manejar peticiones **GET**, **POST** y **OPTIONS**.
+
+## 🔧 Tecnologías
+- Lenguaje C
+- Sockets
+- Protocolo HTTP
+
+## 🚀 Funcionalidades
+- Gestión manual de conexiones TCP mediante sockets
+- Análisis y parsing de peticiones HTTP sin librerías externas
+- Soporte para los métodos: `GET`, `POST`, `OPTIONS`
+- Respuestas HTTP simples con headers y cuerpos personalizados
+
+## 📁 Estructura del proyecto
+```
+http_server/
+├── main.c          # Entrada principal del servidor
+├── http_parser.c   # Lógica de parsing de la petición HTTP
+├── response.c      # Construcción de respuestas HTTP
+└── ...
+```
+
+## 📌 Notas
+Este servidor es una implementación educativa centrada en entender los fundamentos del protocolo HTTP y los sockets en C. Ideal para quienes se inician en redes y sistemas.
+
+## 👤 Autor
+Miguel Jesús Paterson González – [GitHub](https://github.com/paterson3c)
+Mijail Sazhín Martín - [GitHub](https://github.com/MijailSM)
+
+## ▶️ Ejecución
 **IMPORTANTE**: antes de empezar con la ejecución comprobar que existan o crear los directorios bin y obj en la raíz del proyecto. Además se deberán añadir los archivos de media necesarios, lea el archivo index.html para poder escoger los elementos necesarios.
 Mediante el archivo `Makefile`, se pueden ejecutar las siguientes opciones:
 
